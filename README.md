@@ -63,3 +63,12 @@
     -   Search species; “Compare” action; lookalikes grouped; offline indicator.
 -   Settings
     -   Mode toggle, data/privacy, model packs, export/backup, About
+
+## iOS Permissions (add to Info.plist)
+
+Add these usage descriptions before using camera, photos, or location:
+
+-   NSCameraUsageDescription: "Allow ReptileScan to access the camera to capture reptile photos."
+-   NSPhotoLibraryUsageDescription: "Allow ReptileScan to access your photo library to identify reptiles from existing photos."
+-   NSPhotoLibraryAddUsageDescription: "Allow ReptileScan to save identified photos to your library." (if saving)
+-   NSLocationWhenInUseUsageDescription: "Allow ReptileScan to add location to your sightings for better records." (optional)
